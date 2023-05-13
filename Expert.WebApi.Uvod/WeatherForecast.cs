@@ -2,6 +2,7 @@ namespace Expert.WebApi.Uvod
 {
     public class WeatherForecast
     {
+        public bool? IsGorecast { get; set; }
         public DateOnly Date { get; set; }
 
         public int TemperatureC { get; set; }
